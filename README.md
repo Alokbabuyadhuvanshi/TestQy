@@ -113,12 +113,10 @@ TestQy/
 
 ## 📸 Screenshots
 
-| Home Page | Quiz Page | Score Page |
-| :-------: | :--------: | :--------: |
-| ![Home](![image](https://github.com/user-attachments/assets/f6d33659-041c-4376-9451-47009ca4c971)
-) | ![Quiz](![image](https://github.com/user-attachments/assets/01c95c20-9319-467b-a0e4-a3c4a13b41a5)
-) | ![Score](![image](https://github.com/user-attachments/assets/9ddebfd3-a6ad-47b0-a447-08b2be954bb9)
-) |
+
+| | Home-Page ![image](https://github.com/user-attachments/assets/f6d33659-041c-4376-9451-47009ca4c971)
+| | Quiz-Page ![image](https://github.com/user-attachments/assets/01c95c20-9319-467b-a0e4-a3c4a13b41a5)
+| | Score-Page ![image](https://github.com/user-attachments/assets/9ddebfd3-a6ad-47b0-a447-08b2be954bb9)
 
 ---
 
