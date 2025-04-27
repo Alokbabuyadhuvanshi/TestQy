@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestQy | Quiz</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h2 class="logo">TestQy</h2>
+            <h1 class="page-title">Answer the Questions</h1>
+        </div>
+    </header>
+    
+
+    <main>
+        <form method="post" action="{% url 'submit_quiz' %}">
+            {% csrf_token %}
+            
+            {% for question in questions %}
+                <div class="question-block">
+                    <p><strong>{{ forloop.counter }}. {{ question.question }}</strong></p>
+
+                    {% for option in question.options %}
+                        <label>
+                            <input type="radio" name="question_{{ forloop.parentloop.counter0 }}" value="{{ option }}" required>
+                            {{ option }}
+                        </label><br>
+                    {% endfor %}
+                    <input type="hidden" name="correct_answer" value="{{ question.correct_answer }}">
+                </div>
+            {% endfor %}
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+</html>

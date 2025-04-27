@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestQy | Your Score</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h2 class="logo">TestQy</h2>
+            <h1 class="page-title">Your Score</h1>
+        </div>
+    </header>
+    
+    <main>
+        
+        <div class="score-card">
+            <p>You scored <span class="score">{{ score }}</span> out of <span class="total">{{ total }}</span></p>
+            <a href="{% url 'home' %}" class="btn">Take Another Quiz</a>
+        </div>
+    </main>
+</body>
+</html>
