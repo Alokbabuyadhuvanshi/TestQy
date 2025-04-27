@@ -1,16 +1,15 @@
----
 
-# 🎯 TestQy - MCQ Generator
+  # 🎯 TestQy - MCQ Generator
 
-A simple Django-based Quiz Application where users can select:
-- Number of Questions
-- Category (General Knowledge, Science, Sports, History, etc.)
-- Difficulty (Easy, Medium, Hard)
+  A simple Django-based Quiz Application where users can select:
+  - Number of Questions
+  - Category (General Knowledge, Science, Sports, History, etc.)
+  - Difficulty (Easy, Medium, Hard)
 
-The app fetches real-time multiple-choice questions (MCQs) from the **Open Trivia API**, lets users attempt the quiz, and shows detailed results,
-including correct and wrong answers after submission.
+  The app fetches real-time multiple-choice questions (MCQs) from the **Open Trivia API**, lets users attempt the quiz, and shows detailed results,
+  including correct and wrong answers after submission.
 
----
+
 
 ## 🚀 Live Demo
 🔗 Try it here: **[Quiz App Live](https://alokbabu9410.pythonanywhere.com/)**
